@@ -1,0 +1,85 @@
+.time-widget{
+    display: inline-block;text-align: center; max-width: 100%;  font-family: helvetica, sans-serif;border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.time-widget.tight {
+    display: table;
+    margin: 0 auto;
+}
+.time-widget.maxwidth{
+
+    display: block;
+    width: 100%;
+}
+.analog-clock-canvas {
+    background-color: #262261;
+    border-radius: 112px;
+}
+
+.digital-clock-wrap {
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 22px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    color: #524ca3;
+}
+.analog-clock-wrap{
+    margin-top: 30px;
+}
+.time_colons {
+    padding: 0 2px;
+}
+.main_wrap {
+    width: 100%;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+
+.time_title {
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.03);
+    text-align: center;
+}
+
+.date_title{
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+
+
+.main_wrap.small .time_title{
+    font-size: 16px;
+}
+.main_wrap.small .digital-clock-wrap{
+    font-size: 30px;
+}
+.main_wrap.small .date_title{
+    font-size: 15px;
+}
+
+
+
+.main_wrap.super-small .time_title{
+    font-size: 15px;
+}
+.main_wrap.super-small .digital-clock-wrap{
+    font-size: 28px;
+    margin-top: 8px;
+}
+.main_wrap.super-small .date_title{
+    font-size: 14px;
+}
+
+.main_wrap.super-small .data-wrap{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.main_wrap.super-small .analog-clock-wrap {
+    margin-top: 18px;
+}
